@@ -93,7 +93,7 @@ void send_coordinates(){
             memset(frame, '\0', 200);
             sprintf(frame, "https://www.google.hr/maps/place//@%s,%s,12z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d%s!4d%s", longitude, latitude, longitude, latitude);
           
-            sendNMEALocation("+38763408699",frame); //put your number here!
+            sendNMEALocation("+387********",frame); //put your number here!
 }
 
 void sendNMEALocation(char * cellPhoneNumber, char * message) 
